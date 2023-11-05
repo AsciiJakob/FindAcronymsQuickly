@@ -1,7 +1,7 @@
 {
   "name": "find_acronyms_quickly",
   "version": "1.0.0",
-  "description": "Find Acronyms Quickly (FAQ) lets you look up acronyms or abbreviations by right clicking on them.",
+  "description": "Find Acronyms Quickly (FAQ) lets you look up acronyms or abbreviations by selecting them with your cursor and right clicking.",
   "type": "module",
   "dependencies": {
   },
