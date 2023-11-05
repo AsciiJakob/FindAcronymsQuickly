@@ -1,0 +1,26 @@
+{
+  "description": "This value, as well as the version value, will be replaced with the values in package.json during building",
+  "manifest_version": 3,
+  "name": "Find Acronyms Quickly",
+  "author": "Asciijakob",
+  "version": "0.0.0",
+  "homepage_url": "https://github.com/AsciiJakob/",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "FindAcronymsQuickly@asciijakob.se"
+    }
+  },
+  "icons": {
+    "64": "static/assets/icon-64.png",
+    "128": "static/assets/icon-128.png"
+  },
+  "permissions": [
+    "menus"
+  ],
+  "background": {
+    "scripts": ["/background/Background.js"]
+  },
+  "options_ui": {
+    "page": "/settings/settings.html"
+  }
+}
