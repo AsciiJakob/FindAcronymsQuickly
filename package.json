@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AsciiJakob/"
+    "url": "git+https://github.com/AsciiJakob/FindAcronymsQuickly"
   },
   "author": "Asciijakob",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AsciiJakob//issues"
+    "url": "https://github.com/AsciiJakob/FindAcronymsQuickly/issues"
   },
-  "homepage": "https://github.com/Asciijakob/",
+  "homepage": "https://github.com/Asciijakob/FindAcronymsQuickly",
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",
     "web-ext": "^7.2.0",
