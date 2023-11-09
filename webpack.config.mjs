@@ -22,7 +22,8 @@ const config = {
   plugins: [
     new CopyPlugin({
       patterns: [
-        { from: "src/static", to: "static" },
+        { from: "src/static/assets/icon-64.png", to: "static/assets/"},
+        { from: "src/static/assets/icon-128.png", to: "static/assets/"},
         {
           from: "src/manifest.json",
           to: "manifest.json",
