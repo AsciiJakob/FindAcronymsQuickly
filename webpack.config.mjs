@@ -26,7 +26,6 @@ const config = {
         {
           from: "src/manifest.json",
           to: "manifest.json",
-          info: {minimized: false},
           transform(content, absoluteFrom) {
             content = JSON.parse(content);
             content.version = pckgJson.version;
@@ -35,8 +34,8 @@ const config = {
           }, 
         },
         // { from: "node_modules/webextension-polyfill/dist/browser-polyfill.js" },
-        { from: "src/background/", to: "background/", info: { minimized: false}},
-        { from: "src/settings/", to: "settings/", info: {minimized: false} }
+        { from: "src/background/", to: "background/"},
+        { from: "src/settings/", to: "settings/"}
       ],
     }),
     new WebExtPlugin({

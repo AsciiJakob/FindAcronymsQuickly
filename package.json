@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "debug": "npx webpack build -w --mode=development",
-    "prebuild:firefox": "npx webpack build --mode=production",
+    "prebuild:firefox": "npx webpack build --mode=development",
     "build:firefox": "web-ext build --overwrite-dest --source-dir ./dist"
   },
   "repository": {
