@@ -6,10 +6,16 @@ Find Acronyms Quickly (FAQ) is a simple firefox extension that lets you look up 
 
 
 (<a href="https://www.flaticon.com/free-icons/search" title="search icon">Magnifying glass used in logo is made by Maxim Basinski Premium on Flaticon</a>)
-## Screenshot
+## Screenshots
+<p align="center">
+  <img width=500 alt="Screenshot showing context menu option" src="https://i.imgur.com/vySRYy3.png">
+</p>
+<p align="center">
+  <img alt="Screenshot showing allacronyms.com page" src="https://i.imgur.com/kFcTX2h.png">
+</p>
 
 # Installation
-
+[Download from the Mozilla Firefox add-on store](https://addons.mozilla.org/en-US/firefox/addon/find-acronyms-quickly-faq/)
 # Running and building
 Install the dependencies with `npm install`
 ## For debugging
