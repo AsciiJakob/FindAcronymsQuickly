@@ -22,8 +22,7 @@ const config = {
   plugins: [
     new CopyPlugin({
       patterns: [
-        { from: "src/static/assets/icon-64.png", to: "static/assets/"},
-        { from: "src/static/assets/icon-128.png", to: "static/assets/"},
+        { from: "src/static", to: "static" }, // files starting with "." will be ignored as per the default options.
         {
           from: "src/manifest.json",
           to: "manifest.json",
